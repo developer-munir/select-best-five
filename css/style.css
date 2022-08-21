@@ -3,13 +3,42 @@ blue - #03203C
 white - #CAD5E2
 black - #0D0D0D
 */
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 /*
- font dynapuff 
- font-family: 'DynaPuff', cursive;
+ font-family: 'Dancing Script', cursive;
 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /* 
 font popin
 font-family: 'Poppins', sans-serif;
 */
+
+/* ------------------------------
+       common styles 
+---------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background-color: #03203C;
+    color: #CAD5E2;
+    font-family: 'Poppins', sans-serif;
+}
+.special-font{
+    font-family: 'Dancing Script', cursive;
+}
+.dark{
+    color: #0D0D0D;
+}
+.dark-bg{
+    background-color: #0D0D0D;
+}
+.white{
+    color: #CAD5E2;
+}
+.white-bg{
+    background-color: #CAD5E2;
+}
