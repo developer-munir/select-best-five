@@ -42,3 +42,7 @@ body{
 .white-bg{
     background-color: #CAD5E2;
 }
+.player-calculation{
+    min-height: 300px;
+    /* min-width: 250px; */
+}
