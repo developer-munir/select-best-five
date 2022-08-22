@@ -12,10 +12,9 @@ for (const button of buttons) {
       li.innerText = playerName;
       liContainer.appendChild(li);
       button.setAttribute("disabled", true);
+      button.style.backgroundColor = "#CAD5E2";
     } else {
       alert("do not add more than 5 players at a time");
     }
   });
 }
-
-

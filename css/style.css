@@ -3,11 +3,11 @@ blue - #03203C
 white - #CAD5E2
 black - #0D0D0D
 */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
 /*
  font-family: 'Dancing Script', cursive;
 */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 /* 
 font popin
 font-family: 'Poppins', sans-serif;
@@ -16,33 +16,33 @@ font-family: 'Poppins', sans-serif;
 /* ------------------------------
        common styles 
 ---------------------------------*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    overflow-x: hidden;
-    background-color: #03203C;
-    color: #CAD5E2;
-    font-family: 'Poppins', sans-serif;
+body {
+  overflow-x: hidden;
+  background-color: #03203c;
+  color: #cad5e2;
+  font-family: "Poppins", sans-serif;
 }
-.special-font{
-    font-family: 'Dancing Script', cursive;
+.special-font {
+  font-family: "Dancing Script", cursive;
 }
-.dark{
-    color: #0D0D0D;
+.dark {
+  color: #0d0d0d;
 }
-.dark-bg{
-    background-color: #0D0D0D;
+.dark-bg {
+  background-color: #0d0d0d;
 }
-.white{
-    color: #CAD5E2;
+.white {
+  color: #cad5e2;
 }
-.white-bg{
-    background-color: #CAD5E2;
+.white-bg {
+  background-color: #cad5e2;
 }
-.player-calculation{
-    min-height: 300px;
-    /* min-width: 250px; */
+.player-calculation {
+  min-height: 300px;
+  /* min-width: 250px; */
 }
