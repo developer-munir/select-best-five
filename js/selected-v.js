@@ -9,7 +9,7 @@ for (const button of buttons) {
     arr.push(playerName);
     if (arr.length <= 5) {
       const li = document.createElement("li");
-      li.innerText = arr.length + " " + playerName;
+      li.innerText = arr.length + ". " + playerName;
       liContainer.appendChild(li);
       button.setAttribute("disabled", true);
       button.style.backgroundColor = "#CAD5E2";
